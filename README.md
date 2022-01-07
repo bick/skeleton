@@ -21,5 +21,5 @@ Owen Bick
 To view release and update notes, read the CHANGELOG.md file in the main folder.
 
 ### Helpful links
-https://weekendlabs.org/skeleton
-https://weekendlabs.org/skeleton/docs
+- https://weekendlabs.org/skeleton
+- https://weekendlabs.org/skeleton/docs
