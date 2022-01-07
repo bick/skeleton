@@ -7,12 +7,15 @@ Skeleton has almost no CSS and does not use any frameworks. In other words, Skel
 ### Should I fork this?
 Absolutely. Please do. In fact, we strongly encourage that you make your own version of this.
 
+### Bug reporting
+Found a bug? Go here: https://github.com/weekendlabsinc/skeleton/issues
+
+### License
+MIT
+
 ### Credits
 Weekend Labs, Inc.
 Owen Bick
-
-### Bug reporting
-Found a bug? Go here: https://github.com/weekendlabsinc/skeleton/issues
 
 ### Other
 To view release and update notes, read the CHANGELOG.md file in the main folder.
