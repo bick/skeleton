@@ -1,0 +1,43 @@
+/*********************************************************************
+This is the main SCSS file. It isn't best practice to add any
+SCSS for your site here because you have the other folders and files
+like breakpoints, components, partials, etc. Instead, this file
+is for calling those files. If you create a new component, breakpoint,
+partial, etc., make sure you add them here.
+
+Also, don't forget to add support for SCSS on your server!
+We recommend using WP-SCSS https://wordpress.org/plugins/wp-scss/
+*********************************************************************/
+
+/* Partials */
+@import "partials/grid";
+@import "partials/mixins";
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/variables";
+
+/* Components */
+@import "components/buttons";
+
+/* Breakpoints */
+@import "breakpoints/base";
+
+@media only screen and (min-width: 576px) {
+    @import "breakpoints/576up";
+}
+
+@media only screen and (min-width: 768px) {
+    @import "breakpoints/768up";
+}
+
+@media only screen and (min-width: 992px) {
+    @import "breakpoints/992up";
+}
+
+@media only screen and (min-width: 1200px) {
+    @import "breakpoints/1200up";
+}
+
+@media only screen and (min-width: 1400px) {
+    @import "breakpoints/1400up";
+}
