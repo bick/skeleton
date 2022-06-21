@@ -10,6 +10,12 @@ function wpb_custom_new_menu() {
 }
 add_action( 'init', 'wpb_custom_new_menu' );
 
-wp_enqueue_style( 'my_parent_styles', get_template_directory_uri().'/library/css/style.css' );
+function enqueue_custom_styles() {
+
+	wp_enqueue_style( 'main-css', get_template_directory_uri() .'/library/css/style.css', array(), false, 'all' );
+    wp_enqueue_script( 'main-js', get_template_directory_uri() .'/library/js/scripts.js', array(), false, 'all' );
+
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_styles' );
 
 ?>
